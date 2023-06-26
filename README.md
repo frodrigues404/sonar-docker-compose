@@ -13,7 +13,7 @@ O SonarQube é uma ferramenta de análise estatica de código.<br> Utilizamos o 
 
 # How To
 
-$ sysctl -w vm.max_map_count=524288 // Essa configuração é padrão para a subida do Elasticsearch, se estiver utilizando o docker-desktop, pode ser necessário acessar o ambiente linux, para isso, utilize o comando wsl -d docker-desktop<br>
+$ sysctl -w vm.max_map_count=524288 // Essa configuração é padrão para a subida do Elasticsearch, se estiver utilizando o docker-desktop, pode ser necessário acessar o ambiente linux, para isso, utilize o comando <b>wsl -d docker-desktop</b><br>
 
 $ docker-compose up -d
 
